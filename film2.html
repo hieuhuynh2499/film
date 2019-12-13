@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WebsiteFilm</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="film2.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+       <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
+    <script src="https://kit.fontawesome.com/b89a9760f6.js" crossorigin="anonymous"></script>
+     <script src="jquery/jquery-3.2.1.min.js "></script>
+    <script src="bootstrap/js/bootstrap.js "></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+</head>
+<script>
+    $(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+    loop:false,
+    margin:10,
+    nav:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:4
+        }
+    }
+})
+});
+</script>
+<body>
+    <div class="topbar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-8">
+                    <p class="topbar-intro">Enjoy your favourite movie,TV show & video free.</p>
+                </div>
+                <div class="col-lg-6 col-sm-4">
+                    <div class="topbar-btn">
+                        <a href="#" class="btn">Login</a>
+                        <a href="#" class="btn">Register</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <nav class="navbar navbar-default">
+        <div class="container" style="display: inline-flex; flex-wrap: nowrap;">
+            <div class="navbar-header">
+                <a href="film.html">
+                    <img src="images/logo.png" style="width: 200px;">
+                </a>
+            </div>
+            <div class="navbar-collapse">
+
+                <form class="navbar-form">
+                    <select name="type">
+                        <option value="movie">Movies</option>
+                        <option value="tv">TV</option>
+                    </select>
+                    <input type="search" name="searchinput" required="">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+                <ul class="menu">
+
+                    <li class="have-item">
+                        <a href="#">Thể loại</a>
+                        <ul class="menu-item">
+                            <li><a href="#">Phim hành động</a></li>
+                            <li><a href="#">Phim hành động</a></li>
+                            <li><a href="#">Phim hành động</a></li>
+                            <li><a href="#">Phim hành động</a></li>
+                            <li><a href="#">Phim hành động</a></li>
+                        </ul>
+                    </li>
+                    <li class="have-item">
+                        <a href="#">Quốc gia</a>
+                        <ul class="menu-item">
+                            <li><a href="#">Phim hành động</a></li>
+                        </ul>
+                    </li>
+                    <li class="have-item">
+                        <a href="#">Phim lẻ</a>
+                        <ul class="menu-item">
+                            <li><a href="#">Phim hành động</a></li>
+                        </ul>
+                    </li>
+                    <li class="have-item">
+                        <a href="#">Phim bộ</a>
+                        <ul class="menu-item">
+                            <li><a href="#">Phim hành động</a></li>
+                        </ul>
+                    </li>
+                    <li class="have-item">
+                        <a href="#">Phim chiếu rạp</a>
+                        <ul class="menu-item">
+                            <li><a href="#">Phim hành động</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="page-header">
+        <img src="images/35.jpg" class="img-page-header">
+        <h2 class="page-title">Give it to me</h2>
+    </div>
+    <div class="main-wrap">
+        <div class="section container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="thumb">
+                        <img src="images/loverosie.jpg">
+                        <div class="thumb-play">
+                            <button class="play-video" href="https://www.youtube.com/watch?v=2WpHVRaOsVM"><i class="fas fa-play"></i></button>
+                        </div>
+                    </div>
+                    <div class="content-wrap">
+                        <div class="video-thumb" >
+                            <img src="images/1.jpg" style="max-height: 25rem; max-width: 25rem;">
+                        </div>
+                        <div class="video-details">
+                            <div class="single-section">
+                                <h3 class="video-title">
+                      				Give it to me
+                    			</h3>
+                                <p class="video-date">July 9 , 2019</p>
+                                <div class="rating-wrap">
+                                    <span class="rating">7</span>
+                                    <div class="star-rating">
+                                    	<i class="fas fa-star"></i>
+                                    	<i class="fas fa-star"></i>
+                                    	<i class="fas fa-star"></i>
+                                    	<i class="fas fa-star"></i>
+                                    	<i class="fas fa-star"></i>
+                                    	<i class="fas fa-star"></i>
+                                    	<i class="fas fa-star"></i>
+                                    	<i class="far fa-star"></i>
+                                    	<i class="far fa-star"></i>
+                                    	<i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="video-attributes">
+                                	<p>
+                                		<label>Actors:</label>
+                                		Chris Evan,Duuuduu
+                                	</p>
+                                	<p>
+                                		<label>Time:</label>
+                                		69 Minutes
+                                	</p>
+                                	<p>
+                                		<label>Genres:</label>
+                                		Action,drama
+                                	</p>
+                                	<p>
+                                		<label>Country:</label>
+                                		USA
+                                	</p>
+                                	<p>
+                                		<label>Language:</label>
+                                		English
+                                	</p>
+                                </div>
+                            </div>
+                            <div class="single-section">
+                            	<h3 class="single-section-title">Movie Story </h3>
+                            	<div class="section-content">
+                            		Câu chuyện phim Before We Go xoay quanh một người phụ nữ trẻ, sống ở thành phố New York, cô phải đi gấp để kịp chuyến tàu muộn tới Boston lúc 1h30. Nhưng trên đường đi, cô gặp phải cướp và lạc lõng trong đêm tối, cho tới khi gặp gỡ chàng nhạc sĩ trẻ biểu diễn ở sân ga.
+                            	</div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container lastest-film">
+            <div class="row">
+                <div class="col-md-6 title-film-left">
+                    <p class="title-left">Lastest Movies</p>
+                </div>
+                <div class="col-md-6 title-film-right">
+                    <a href="#" class="hide-film">See All Movies</a>
+                </div>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="film-item">
+                    <img src="images/22.jpg" class="img-item">
+                    <button class="btn-play-mini"><i class="fas fa-play-circle"></i></button>
+                    <a href="" class="name-film">Lucky man</a>
+                    <p class="time">22 Jun 2017</p>
+                </div>
+                <div class="film-item">
+                    <img src="images/21.jpg" class="img-item">
+                    <button class="btn-play-mini"><i class="fas fa-play-circle"></i></button>
+                    <a href="" class="name-film">Lucky man</a>
+                    <p class="time">22 Jun 2017</p>
+                </div>
+                <div class="film-item">
+                    <img src="images/20.jpg" class="img-item">
+                    <button class="btn-play-mini"><i class="fas fa-play-circle"></i></button>
+                    <a href="" class="name-film">Lucky man</a>
+                    <p class="time">22 Jun 2017</p>
+                </div>
+                <div class="film-item">
+                    <img src="images/19.jpg" class="img-item">
+                    <button class="btn-play-mini"><i class="fas fa-play-circle"></i></button>
+                    <a href="" class="name-film">Lucky man</a>
+                    <p class="time">22 Jun 2017</p>
+                </div>
+                <div class="film-item">
+                    <img src="images/19.jpg" class="img-item">
+                    <button class="btn-play-mini"><i class="fas fa-play-circle"></i></button>
+                    <a href="" class="name-film">Lucky man</a>
+                    <p class="time">22 Jun 2017</p>
+                </div>
+                <div class="film-item">
+                    <img src="images/19.jpg" class="img-item">
+                    <button class="btn-play-mini"><i class="fas fa-play-circle"></i></button>
+                    <a href="" class="name-film">Lucky man</a>
+                    <p class="time">22 Jun 2017</p>
+                </div>
+                <div class="film-item">
+                    <img src="images/19.jpg" class="img-item">
+                    <button class="btn-play-mini"><i class="fas fa-play-circle"></i></button>
+                    <a href="" class="name-film">Lucky man</a>
+                    <p class="time">22 Jun 2017</p>
+                </div>
+                <div class="film-item">
+                    <img src="images/19.jpg" class="img-item">
+                    <button class="btn-play-mini"><i class="fas fa-play-circle"></i></button>
+                    <a href="" class="name-film">Lucky man</a>
+                    <p class="time">22 Jun 2017</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <footer>
+
+            		<div class="container ">
+            			<div class="row ">
+
+            						<div class="col-6-md ">
+            							<a href="film.html">
+                    <img src="images/logo.png" style="width: 60px;">
+                </a>
+            							<p class="about-text ">No matter who you are or who you be with, I will always truly completely honestly love you.         							
+            							</p>
+            						</div>
+            						<div class="col-6-md " style="margin: 0 50px; ">
+            							<div class="footer-social ">
+            								<h5 class="footer-social-title ">Connect with</h5>
+            								<div class="socials ">
+            									<a href=" "><i class="fab fa-facebook "></i></a>
+            									<a href=" "><i class="fab fa-google-plus-g "></i></a>
+            									<a href=" "><i class="fab fa-youtube "></i></a>
+            									<a href=" "><i class="fab fa-instagram "></i></a>
+            								</div>
+            								<p class="copyright-text ">@2019 All Rights Reserved</p>
+            							</div>
+            						</div>
+
+            			</div>
+            		</div>
+
+            </footer>
+    <script src="bootstrap/js/bootstrap.js "></script>
+</body>
+
+</html>
